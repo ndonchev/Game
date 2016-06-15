@@ -1,0 +1,850 @@
+
+                         ''~``                          
+                        ( o o )                         
++------------------.oooO--(_)--Oooo.------------------+ 
+|                                                     | 
+|                .-------------------.                | 
+|                | I N D I E  L I B  |                | 
+|                .-------------------.                | 
+|                    .oooO                            | 
+|                    (   )   Oooo.                    | 
++---------------------\ (----(   )--------------------+
+                       \_)    ) /                      
+                             (_/                        
+Indielib version: 0.5.1
+
+[Init time]: (Wednesday, 1 of June 2016)
+
+[17:53:05] [ BEGIN ] -- Creating Render --
+                     {
+[17:53:05] [ BEGIN ]    -- Creating SDL window --
+                        {
+           [  OK   ]       Window created
+           [ INFO  ]       Mode: Window
+                        }
+[17:53:05] [  END  ]    Window OK [Elapsed time = 0.03 seg]
+[17:53:05] [ BEGIN ]    -- Initializing Direct3D --
+                        {
+           [  OK   ]       Creating D3D object
+           [  OK   ]       Obtaining the adapter
+           [  OK   ]       Creating the device (D3DCREATE_HARDWARE_VERTEXPROCESSING)
+           [ INFO  ]       Video mode: 800 x 600 x 32
+                        }
+[17:53:05] [  END  ]    Direct3D OK [Elapsed time = 0.18 seg]
+[17:53:05] [ BEGIN ]    -- Hardware information --
+                        {
+           [ INFO  ]       Direct3D version: DXSDK November 2007
+           [ INFO  ]       Mark: ATI Technologies Inc
+           [ INFO  ]       Chip: AMD Radeon HD 7500M/7600M Series
+           [ INFO  ]       Primitive antialising (D3DRS_ANTIALIASEDLINEENABLE): No
+           [ INFO  ]       Maximum texture size: 16384 x 16384
+           [ INFO  ]       Vertex Shader: 3 . 0 
+           [ INFO  ]       Pixel Shader: 3 . 0
+                        }
+[17:53:05] [  END  ]    Hardware Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Initializing ImageManager --
+                        {
+           [  OK   ]       Preparing ImageManager
+           [ INFO  ]       Using FreeImage version:  3.15.3
+           [ INFO  ]       Copyright:  This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+                        }
+[17:53:05] [  END  ]    ImageManager Initialised [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Initializing SurfaceManager --
+                        {
+           [  OK   ]       Checking IND_Render
+           [  OK   ]       Checking IND_ImageManager
+                        }
+[17:53:05] [  END  ]    SurfaceManager OK [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Initializing AnimationManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[17:53:05] [  END  ]    AnimationManager OK [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Initializing FontManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[17:53:05] [  END  ]    FontManager OK [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Initializing Entity2dManager --
+                        {
+           [  OK   ]       Preparing Entity2dManager
+           [  OK   ]        Checking IND_Render
+                        }
+[17:53:05] [  END  ]    Entity2dManager OK [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/dbs.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 800 x 600
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[17:53:05] [  END  ]    Image loaded [Elapsed time = 0.013 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/dbs.jpg
+           [  OK   ]       Image type converted to 32-bit RGB implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 800 x 600
+           [ INFO  ]       Block size: 1024 x 1024
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 224 x 424
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.008 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/dbs.jpg
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 52 x 50
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[17:53:05] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 52 x 50
+           [ INFO  ]       Block size: 64 x 64
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 12 x 14
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 52 x 50
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[17:53:05] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 52 x 50
+           [ INFO  ]       Block size: 64 x 64
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 12 x 14
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 52 x 50
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[17:53:05] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/heart.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 52 x 50
+           [ INFO  ]       Block size: 64 x 64
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 12 x 14
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/heart.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Parsing and loading animation --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/character1.xml
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_01.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 116 x 198
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Parsing collision file --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/sword_master/sword_master01_collisions.xml
+                           }
+[17:53:05] [  END  ]       Collision file loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_02.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 114 x 200
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_03.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 110 x 202
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_04.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 106 x 200
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_05.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 106 x 200
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_06.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 106 x 202
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_07.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 106 x 204
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_08.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 106 x 202
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_09.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 102 x 198
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_10.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 102 x 196
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0 seg]
+                        }
+[17:53:05] [  END  ]    Animation parsed and loaded [Elapsed time = 0.009 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_01.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 116 x 198
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 12 x 58
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_01.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_02.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 114 x 200
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 14 x 56
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_02.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_03.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 110 x 202
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 18 x 54
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_03.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_04.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 106 x 200
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 22 x 56
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_04.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_05.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 106 x 200
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 22 x 56
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_05.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_06.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 106 x 202
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 22 x 54
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_06.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_07.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 106 x 204
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 22 x 52
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_07.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_08.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 106 x 202
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 22 x 54
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_08.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_09.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 102 x 198
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 26 x 58
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_09.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_10.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 102 x 196
+           [ INFO  ]       Block size: 128 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 26 x 60
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/advance/Rock_Avanza_10.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Parsing and loading animation --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/character2.xml
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_01.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 194
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_02.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 192
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_03.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 188
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_04.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 150 x 186
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.002 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_05.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 150 x 188
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_06.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 150 x 192
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_07.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 194
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_08.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 194
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]       -- Loading Image --
+                           {
+           [ INFO  ]          File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_09.png
+           [ INFO  ]          Extension: png
+           [ INFO  ]          Size: 148 x 192
+           [ INFO  ]          Bpp: 1
+           [ INFO  ]          Format: IND_COLOUR_INDEX
+                           }
+[17:53:05] [  END  ]       Image loaded [Elapsed time = 0.002 seg]
+                        }
+[17:53:05] [  END  ]    Animation parsed and loaded [Elapsed time = 0.011 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_01.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 194
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 62
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_01.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_02.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 192
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 64
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_02.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_03.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 188
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 68
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_03.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_04.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 150 x 186
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 106 x 70
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_04.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_05.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 150 x 188
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 106 x 68
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_05.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_06.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 150 x 192
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 106 x 64
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_06.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_07.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 194
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 62
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_07.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_08.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 194
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 62
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_08.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_09.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 148 x 192
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 108 x 64
+                        }
+[17:53:05] [  END  ]    Surface created [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../DragonBall_Indie/resources/animations/stop/Terry_Parado_09.png
+                        }
+[17:53:05] [  END  ]    Ok [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 0
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 1
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 2
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 3
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 4
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 5
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 6
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:05] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 7
+                        }
+[17:53:05] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing Entity2dManager --
+                        {
+[17:53:32] [ BEGIN ]       -- Freeing 2d entities --
+                           {
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 4
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 7
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+                           }
+[17:53:32] [  END  ]       Entities freed [Elapsed time = 0 seg]
+                        }
+[17:53:32] [  END  ]    IND_Entity2dManager finalized [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing FontManager --
+                        {
+[17:53:32] [ BEGIN ]       -- Freeing fonts --
+                           {
+                           }
+[17:53:32] [  END  ]       Fonts freed [Elapsed time = 0 seg]
+                        }
+[17:53:32] [  END  ]    FontManager finalized [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing AnimationManager --
+                        {
+[17:53:32] [ BEGIN ]       -- Freeing animations --
+                           {
+[17:53:32] [ BEGIN ]          -- Freeing animation --
+                              {
+           [ INFO  ]             Name: ../DragonBall_Indie/resources/animations/character1.xml
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+                              }
+[17:53:32] [  END  ]          Ok [Elapsed time = 0.002 seg]
+[17:53:32] [ BEGIN ]          -- Freeing animation --
+                              {
+           [ INFO  ]             Name: ../DragonBall_Indie/resources/animations/character2.xml
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0.001 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]             -- Freeing surface --
+                                 {
+                                 }
+[17:53:32] [  END  ]             Ok [Elapsed time = 0 seg]
+                              }
+[17:53:32] [  END  ]          Ok [Elapsed time = 0.002 seg]
+                           }
+[17:53:32] [  END  ]       Animations freed [Elapsed time = 0.004 seg]
+                        }
+[17:53:32] [  END  ]    AnimationManager finalized [Elapsed time = 0.004 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing SurfaceManager --
+                        {
+[17:53:32] [ BEGIN ]       -- Freeing surfaces --
+                           {
+           [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:                           }
+[17:53:32] [  END  ]       Surfaces freed [Elapsed time = 0 seg]
+                        }
+[17:53:32] [  END  ]    IND_SurfaceManager finalized [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing ImageManager --
+                        {
+[17:53:32] [ BEGIN ]       -- Freeing images --
+                           {
+                           }
+[17:53:32] [  END  ]       Images freed [Elapsed time = 0 seg]
+                        }
+[17:53:32] [  END  ]    ImageManager finalized [Elapsed time = 0 seg]
+[17:53:32] [ BEGIN ]    -- Finalizing Direct3D --
+                        {
+           [  OK   ]       Finalizing the Device
+           [  OK   ]       Finalizing D3D object
+[17:53:32] [ BEGIN ]       -- Finalizing the window --
+                           {
+                           }
+[17:53:32] [  END  ]       Window finalized [Elapsed time = 0.008 seg]
+                        }
+[17:53:32] [  END  ]    Direct3D finalized  [Elapsed time = 0.039 seg]
